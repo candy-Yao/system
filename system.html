@@ -1,0 +1,79 @@
+<!-- 
+===================================
+@auther:姚星如
+@data:2016-11-29
+@content:学生信息管理系统
+@Last Modified Time:2016-11-29
+===================================
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>首页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="box1"></div><!-- 渐变盒子 -->
+    <div class="media">
+        <div class="media-left">
+            <div class="box">
+                <a href="" ><img src="images/logo_low.jpg" alt="logo" class="media-object img-responsive"></a>
+            </div>
+        </div>  
+        <div class="media-body">
+	        <div class="media-muted">
+            <span class="title1">重庆师范大学</span><span class="title2">学生信息管理系统</span>
+            </div>
+        </div>  
+    </div>
+    <div class="row box2">
+        <div class="col-sm-6 col-lg-6 col-xs-6 col-md-6">
+            <img src="images/login_pic.png" alt="background" class="img-responsive background pull-right">
+        </div>
+        <div class="col-sm-6 col-lg-6 col-xs-6 col-md-6">
+            <form class="form-horizontal" role="form" method="post" action="dlyz.php">
+                <div class="login">登录</div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">用户名：</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" name="username" id="username" placeholder="username...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-4 control-label" name="password"> 密码：</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-lg-4 col-xs-4 col-md-4" ></div>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 管理员
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 老师
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 学生
+                    </label>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-7 col-lg-7 col-xs-7 col-md-7">
+                         <button type="submit" class="btn btn-primary pull-right">登录</button>
+                         <button type="reset" class="btn btn-primary pull-right">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>			
+</div>
+<div class="foot">注：管理员（用户名：Manager&nbsp;&nbsp;&nbsp;密码：0011）&nbsp;&nbsp;&nbsp;老师：（用户名：Teacher&nbsp;&nbsp;&nbsp;密码：1122）&nbsp;&nbsp;&nbsp;学生（用户名：Student&nbsp;&nbsp;&nbsp;密码：2233）</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>	
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

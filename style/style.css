@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+/* 清零代码 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,
+textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}/* 清零代码结束 */
+/* 首页样式开始 */
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.box1 {
+	background: linear-gradient(#C7DEFC, #fff);/* 背景色渐变 */
+	width: 100%;
+	height: 100px;	
+}/* 最顶部盒子 */
+.container-fluid .media {
+/* 	background-color: yellow; */
+	box-sizing: border-box;
+	padding-left: 18%;
+}
+.media .media-left .box {
+	width: 80px;
+	height: auto;
+}/* logo盒子 */
+img .background {
+	border-radius: 20px;
+}/* 图片圆角 */
+.media-body .media-muted .title1 {
+	font-size: 35px;
+	font-weight: 700;
+	color: #000;
+	margin-right: 5px;
+	margin-top: 20px;
+	font-family: "华文行楷";
+	/* background-color: blue; */
+}/* logo文字 */
+.title2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #5555ff;
+	margin-top: 2.5%;
+}/* logo文字 */
+.box2 {
+	/* background-color: yellow; */
+	margin-top: 3%;
+}/* 首页内容外围 */
+.login {
+	color: #5555ff;
+	margin: 0 0 5% 44%;
+	font-size: 20px;
+	font-weight: bold;
+}/* 登录和注册的标题 */
+.login1 {
+	color: #5555ff;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 20px;
+	font-weight: bold;
+}/*注册的标题 */
+.modal-dialog {
+    margin: 15% auto;
+}/* 注册框位置调整 */
+.login2 {
+	text-align: center;
+}/* 注册按钮居中 */
+button {
+	margin-left: 5%;
+}
+.form-group {
+    margin-bottom: 4%;
+}
+.form-control {
+	width: 50%;
+}
+.foot {
+	text-align: center;
+}/*页脚注释*/
+/* 首页样式结束 */
+
+/* 搜索页面样式开始 */
+/*.info1 { 
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}/* 页头信息背景 */*/
+.box3 {
+	background: linear-gradient(#ccc, #fff);/* 背景色渐变 */
+	width: 100%;
+	height: 20px;	
+}/* 最顶部盒子 */
+.container-fluid1 {
+	background-color: #678FC2;
+	padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}/* 背景色的设置 */
+.box4 {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+    width: 100%;
+    height: 20px;
+	font-weight: 600px;
+    background: linear-gradient(#C7DEFC, #fff);/* 背景色渐变 */
+} /* 顶部渐变框 */
+.box4 p{
+	z-index: 100;
+	text-align: right;
+	position: absolute;
+	top: 1.5%;
+	right: 1.5%;
+}
+.box4 p a {
+
+	font-weight: bold;
+}
+.container-fluid1 .media {
+    margin-top: 0;
+    background-color: #fff;
+    padding-left: 5%;
+}
+.container-fluid1>img {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}/* 右上角的退出图片 */
+.title3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #5555ff;
+	font-style: italic;
+}/* logo文字 */
+.media-body .media-muted {
+	margin-top: 1%;
+}/* logo文字 */
+.container-fluid1 .media-left {
+	padding: 0;
+}/* logo */
+/* 搜索页面样式结束 */
+/* 导航开始 */
+.navbar {
+    position: relative;
+    min-height: 30px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: 1px solid transparent;
+}
+.navbar-default {
+    background-color: #C7DEFC;
+    border-color: transparent;
+}/* 导航链接框 */
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}/* 链接文字 */
+.nav>li>a {
+    padding: 5px 15px;
+}/* 链接文字 */
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 0px;
+    list-style: none;
+    background-color: transparent;
+}/* 面包屑导航页 */
+.content {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding-bottom: 2%;
+}/* 内容框 */
+.content .box6 {
+   width: 96%;
+   height: auto;
+   margin: 0 auto;
+   padding: 1px;
+   background-color: #678FC2;
+   border-radius: 10px;
+}
+.content .box6 .box7 {
+   width: 100%;
+   height: auto;
+   margin: 0 auto;
+   border: 5px solid #C7DEFC;
+   background-color: #fff;
+   border-radius: 10px;
+   text-align: center;
+}
+.foot_query {
+    text-align: center;
+	padding-top: 12%;
+	margin-bottom: -1%;
+	color:#5555ff;	
+}
+.foot_add {
+    text-align: center;
+	margin-top: 1%;
+	margin-bottom: -1.5%;
+	color:#5555ff;	
+}
+/* 导航结束*/
+
+
+/*学院添加开始*/
+.title {
+	color: #5555ff;
+	margin: 2% 0 2% 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.form-group {
+    margin-bottom: 3%;
+}
+/*学院添加结束*/
+
+/*学院查询开始*/
+.table {
+    width: 70%;
+    max-width: 70%;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	align-content:center;	
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+    text-align: center;
+}
+
+/*学院查询结束*/
+
+
+/* 小屏幕（平板，大于等于 768px） */
+@media screen and (min-width:480px){
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media screen and (min-width:992px){
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1240px） */
+@media screen and (min-width:1240px){
+
+}
